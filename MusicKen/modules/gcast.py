@@ -24,7 +24,7 @@ async def broadcast(_, message: Message):
                 await USER.send_message(dialog.chat.id, lmao)
                 sent = sent+1
                 await wtf.edit(f"**Berhasil Mengirim Pesan Ke** `{sent}` **Grup, Gagal Mengirim Pesan Ke** `{failed}` **Grup**")
-                await asyncio.sleep(3)
+                await asyncio.sleep(0.7)
             except:
                 failed=failed+1
                 await wtf.edit(f"**Berhasil Mengirim Pesan Ke** `{sent}` **Grup, Gagal Mengirim Pesan Ke** `{failed}` **Grup**")
