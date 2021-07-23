@@ -114,7 +114,7 @@ async def ghelp(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚔️ ʙᴀɴᴛᴜᴀɴ", callback_data = f"help+1")
+                    InlineKeyboardButton("⚔️ ʙᴀɴᴛᴜᴀɴ", callback_data = f"help+3")
                 ]
             ]
         ),
