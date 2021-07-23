@@ -19,7 +19,6 @@ Dikekolah oleh @{OWNER}
 ☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
 🔘 Memutar lagu di group 
 🔘 Mendownload lagu
-🔘 Mendownload video
 🔘 Mencari link youtube
 🔘 Mencari lirik lagu
 ┈───────────────────┈
@@ -115,9 +114,7 @@ async def ghelp(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "🟡 Klik di sini untuk bantuan 🟡", url=f"https://t.me/{BOT_USERNAME}?start"
-                    )
+                    InlineKeyboardButton("⚔️ ʙᴀɴᴛᴜᴀɴ", callback_data = f"help+1")
                 ]
             ]
         ),
