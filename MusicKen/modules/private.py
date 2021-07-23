@@ -114,7 +114,7 @@ async def ghelp(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚔️ ʙᴀɴᴛᴜᴀɴ", callback_data = f"help+3")
+                    InlineKeyboardButton("⚔️ ʙᴀɴᴛᴜᴀɴ", url = "https://telegra.ph/PANDUAN-MUSIK-07-23")
                 ]
             ]
         ),
